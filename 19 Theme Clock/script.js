@@ -71,6 +71,7 @@ function setTime() {
     360
   )}deg)`;
 
+  //change hoursForClock to hours to change the clock to 24-hr format
   timeEl.innerHTML = `${hoursForClock}:${
     minutes < 10 ? `0${min}` : minutes
   } ${ampm}`;
