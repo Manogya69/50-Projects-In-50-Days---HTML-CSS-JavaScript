@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:wght@700&display=swap");
+
+* {
+  box-sizing: border-box; /* doesnot effect the width after adding padding */
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: flex; /* centers everything */
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /*viewport height, takes the entire height of the browser. */
+  overflow: hidden;
+  margin: 0;
+}
+.bg {
+  background: url("https://c4.wallpaperflare.com/wallpaper/1001/537/160/minimalism-linux-command-lines-technology-wallpaper-preview.jpg")
+    no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+.loading-text {
+  font-size: 50px;
+  color: white;
+}
