@@ -14,9 +14,8 @@ body {
   display: flex; /* centers everything */
   align-items: center;
   justify-content: center;
-  height: 100 vh; /* viewport height, takes the entire height of the browser. */
+  height: 100vh; /* viewport height, takes the entire height of the browser. */
   overflow: hidden;
-  margin-top: 25%;
 }
 
 .container {
