@@ -17,9 +17,65 @@
     <link
       rel="stylesheet"
       href="style.css" />
-    <title>Project Starter</title>
+    <title>Catch The Insect</title>
   </head>
   <body>
+    <div class="screen">
+      <h1>Catch the Celebrity</h1>
+      <button
+        class="btn"
+        id="start-btn">
+        Play Game
+      </button>
+    </div>
+    <div class="screen">
+      <h1>Who is Your "Favroite" Celebrity?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Kimmy Baby</p>
+            <img
+              src="https://pngimg.com/uploads/kim_kardashian/small/kim_kardashian_PNG52.png"
+              alt="fly" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Osama Bin Boii</p>
+            <img
+              src="https://pngimg.com/uploads/osama_bin_laden/small/osama_bin_laden_PNG27.png"
+              alt="fly" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>PutItIn Babe</p>
+            <img
+              src="https://pngimg.com/uploads/vladimir_putin/small/vladimir_putin_PNG49.png"
+              alt="fly" />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Adolf HitHer</p>
+            <img
+              src="https://pngimg.com/uploads/hitler/small/hitler_PNG16.png"
+              alt="fly" />
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="screen game-container"
+      id="game-container">
+      <h3 id="time">Time: 00:00</h3>
+      <h3 id="score">Score: 0</h3>
+      <h5
+        id="message"
+        class="">
+        Are You Annoyed Yet?<br />You are playing an Impossible game
+      </h5>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
